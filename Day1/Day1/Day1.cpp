@@ -34,7 +34,7 @@ std::vector<int> vectorStringSplitToInt(string stringToSplit, string delimiter) 
 	return returnVector; 
 }
 
-string part1(vector<int> inputVector) {
+int part1(vector<int> inputVector) {
 	int quantity = 0;
 	for (int x = 0; x <= inputVector.size() - 1; x++) {
 		if (x != 0) {
@@ -44,10 +44,10 @@ string part1(vector<int> inputVector) {
 		}
 	}
 	cout << quantity << endl;
-	return "done";
+	return 0;
 }
 
-string part2(vector<int> inputVector) {
+int part2(vector<int> inputVector) {
 	vector<int> setOfSumsForSlidingWindow; 
 	for (int x = 0; x <= inputVector.size() -1 ; x++) {
 		if (x > 0 && x <= inputVector.size()-2) {
@@ -55,7 +55,7 @@ string part2(vector<int> inputVector) {
 		}
 	}
 	part1(setOfSumsForSlidingWindow);
-	return "done";
+	return 0;
 }
 
 
