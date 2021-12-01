@@ -1,0 +1,6 @@
+﻿  Day1.cpp
+C:\Repos\AdventOfCode2021\Day1\Day1\Day1.cpp(16,21): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+C:\Repos\AdventOfCode2021\Day1\Day1\Day1.cpp(39,20): warning C4018: '<=': signed/unsigned mismatch
+C:\Repos\AdventOfCode2021\Day1\Day1\Day1.cpp(52,20): warning C4018: '<=': signed/unsigned mismatch
+C:\Repos\AdventOfCode2021\Day1\Day1\Day1.cpp(53,18): warning C4018: '<=': signed/unsigned mismatch
+  Day1.vcxproj -> C:\Repos\AdventOfCode2021\Day1\Debug\Day1.exe
