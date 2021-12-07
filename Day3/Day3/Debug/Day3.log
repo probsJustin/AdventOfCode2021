@@ -1,5 +1,7 @@
 ﻿  Day3.cpp
-C:\Repos\AdventOfCode2021\Day3\Day3\Day3.cpp(17,21): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
-C:\Repos\AdventOfCode2021\Day3\Day3\Day3.cpp(36,20): warning C4018: '<': signed/unsigned mismatch
-C:\Repos\AdventOfCode2021\Day3\Day3\Day3.cpp(38,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Repos\AdventOfCode2021\Day3\Day3\Day3.cpp(16,21): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+C:\Repos\AdventOfCode2021\Day3\Day3\Day3.cpp(30,20): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\AdventOfCode2021\Day3\Day3\Day3.cpp(31,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Repos\AdventOfCode2021\Day3\Day3\Day3.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
+C:\Repos\AdventOfCode2021\Day3\Day3\Day3.cpp(68,20): warning C4018: '<': signed/unsigned mismatch
   Day3.vcxproj -> C:\Repos\AdventOfCode2021\Day3\Debug\Day3.exe

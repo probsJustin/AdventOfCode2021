@@ -1,5 +1,4 @@
-#pragma once 
-#include <iostream>
+ #include <iostream>
 #include <string>
 #include <vector>
 #include "Header.h"
@@ -48,10 +47,33 @@ void part1(vector<string> inputVector) {
 	cout << "Answer: " << std::stoull(finalBitEpsilon, 0, 2) * std::stoull(finalBitGamma, 0, 2) << endl;
 }
 
+int getMostCommon(int inputPosition, vector<string> inputVector) {
+	int bitCounter = 0; 
+	for (int y = 0; y < inputVector.size(); y++) {
+		bitCounter += (int)inputVector[y][inputPosition] - '0';
+	}
 
+	if (bitCounter > (static_cast<int>(inputVector.size()) - bitCounter)) {
+
+		return 1; 
+	}else {
+		if (bitCounter == (static_cast<int>(inputVector.size()) - bitCounter)) {
+			return 2;
+		}
+		return 0;
+	}
+}
+
+void part2(vector<string> inputVector) {
+	for (int x = 0; x < inputVector[0].size(); x++) {
+		cout << getMostCommon(x, inputVector) << endl;
+	}
+
+}
 
 int main() {
-	part1(vectorStringSplitToString(getPuzzleText("./puzzle.txt"), { '\n' }));
+	//part1(vectorStringSplitToString(getPuzzleText("./testPuzzle.txt"), { '\n' }));
+	part2(vectorStringSplitToString(getPuzzleText("./testPuzzle.txt"), { '\n' }));
 	system("pause");
 	return 0;
 }
