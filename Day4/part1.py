@@ -43,6 +43,7 @@ def calculate():
                                 if (bingoCards[card][y][0] == [1, 1, 1, 1, 1]):
                                     return [bingoCards, "win", bingoInput[itemToFind], bingoCards[card]]
 
+
 winningInfo = calculate()
 sum_val = 0
 for x in winningInfo[3]:
